@@ -1,0 +1,11 @@
+h1{
+    color: rgb(14, 14, 97);
+}
+
+#campo-texto{
+    display: inline-block;
+    margin: 0 auto;
+    width: 500px;
+    height: 440px;
+    border-radius: 2px;
+}
