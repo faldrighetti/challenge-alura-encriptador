@@ -11,18 +11,33 @@
 
     <header>
         <img src="Logo.png" alt="Logo de Alura">
-        <h1>Bienvenidos al encriptador de texto - Challenge Alura ONE</h1>
     </header>
     <main>
-        <!-- <textarea id="campo-texto" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+        <!-- 
 
         <textarea id="resultado" cols="15" rows="5"></textarea>
-        <button id="boton-encriptar">Encriptar</button>
-        <button id="boton-desencriptar">Desncriptar</button>
+        
         <button id="boton-copiar">Copiar texto</button>-->
 
-        <section class="seccion-1"></section>
-        <section class="seccion-2"></section>
+        <section class="seccion-1">
+            <textarea id="campo-texto" placeholder="Ingrese su texto aquí"></textarea>
+            <div class="botones">
+                <input type="button" id="boton-encriptar" value="Encriptar"></input>
+                <input type="button" id="boton-desencriptar" value="Desencriptar"></input>
+            </div>
+        </section>
+
+        <section class="seccion-2">
+            <div class="caja-muneco">
+                <img src="Muñeco.png" alt="Imagen de un muñeco de Alura">
+            </div>
+            <div class="advertencia">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="texto-instruccion">
+                Ingrese aquí el texto a encriptar o desencriptar
+            </div>
+        </section>
 
     </main>
     <footer>

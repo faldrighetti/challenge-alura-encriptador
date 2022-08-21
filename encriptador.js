@@ -36,11 +36,11 @@ let textoIngresado = document.querySelector('#campo-texto').value
 
 let resultado = document.querySelector('#resultado')
 
-$botonEncriptar.onclick = function() {
+/*$botonEncriptar.onclick = function() {
     let textoEncriptado = encriptar(textoIngresado)
     resultado.value(textoEncriptado)
     textoIngresado.value = ''
-}
+}*/
 
 function encriptar(frase){
     frase = frase.toLowerCase()
