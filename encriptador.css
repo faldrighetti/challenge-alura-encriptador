@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,7 +38,7 @@ section{
     margin: auto;
     margin-top: 20px;
     resize: none;
-    font-size: 35px;
+    font-size: 20px;
     color: royalblue;
     border: solid 3px #0A3871;
 }
@@ -67,22 +67,22 @@ section{
 
 .seccion-2{
     width: 20%;
-    height: 100%;
+    height: 85%;
     background-color: #ffff;
     border-radius: 20px;
     margin-right: 20px;
     border: solid 3px #0A3871;
 }
 
-.caja-muneco{
+.muneco{
     height: 60%;
     width: 100%;
-    padding-top: 70px;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .advertencia{
+    padding-top: 20px;
     height: 20%;
     width: 100%;
     text-align: center;
@@ -92,20 +92,19 @@ section{
     height: 20%;
     width: 100%;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 #resultado{
     height: 70%;
     width: 100%;
-    color: green;
-    font-size: 35px;
+    color: #0A3871;
+    font-size: 20px;
     margin-top: 5px;
     overflow-wrap: break-word;
 }
 
 #boton-copiar{
-    margin-top: 20px;
     position: relative;
     top: 200px;
     display: block;
@@ -128,4 +127,9 @@ footer{
 
 .oculto{
     display: none;
+}
+
+#imagen-muneco{
+    padding-top: 20px;
+    width: 100%;
 }

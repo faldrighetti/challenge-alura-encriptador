@@ -6,7 +6,7 @@ const cambios = [['e', 'enter'], ['i','imes'], ['a', 'ai'], ['o','ober'], ['u', 
 
 let textoIngresado = document.querySelector('#campo-texto')
 
-let cajaMunieco = document.querySelector('.caja-muneco')
+let cajaMunieco = document.querySelector('.muneco')
 let advertencia = document.querySelector('.advertencia')
 let textoInstruccion = document.querySelector('.texto-instruccion')
 let campoCopiar = document.querySelector('#copiar')
